@@ -275,6 +275,17 @@ body <- dashboardBody(
               
               
               
+            ),
+            
+            fluidRow(
+              
+            column(12,
+                   
+                   boxPlus(title = HTML("<b>Demo</b>"), closable = F, width = NULL, solidHeader = T, collapsible = F, enable_dropdown = F,
+                           tags$iframe(style="height:600px; width:100%", src="demo.pdf")
+                   )
+                   
+                   )
             )
     )
     
