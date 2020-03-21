@@ -14,4 +14,4 @@ For that, follow theses steps:
 I thank a lot the author of [`rwhatsapp`](https://github.com/JBGruber/rwhatsapp) package. This App is widely inspired by his work. 
 
 # Demo 
-[Run the App on Shinyapps.io](https://skeita.shinyapps.io/ShinyWhatsApp/)
+<a href="https://skeita.shinyapps.io/ShinyWhatsApp/" target="_blank">Run the App on Shinyapps.io</a>
