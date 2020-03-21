@@ -15,3 +15,8 @@ I thank a lot the author of [`rwhatsapp`](https://github.com/JBGruber/rwhatsapp)
 
 # Demo 
 <a href="https://skeita.shinyapps.io/ShinyWhatsApp/" target="_blank">Run the App on Shinyapps.io</a>
+
+## Screenshots
+<p align="center"><img src="https://github.com/AveugleVisionnaire/ShinyWhatsApp/blob/master/www/global.png" height="50%" width="50%"/></p>
+<p align="center"><img src="https://github.com/AveugleVisionnaire/ShinyWhatsApp/blob/master/www/stats1.png" height="50%" width="50%"/></p>
+<p align="center"><img src="https://github.com/AveugleVisionnaire/ShinyWhatsApp/blob/master/www/stats2.png" height="50%" width="50%"/></p>
