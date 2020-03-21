@@ -8,9 +8,9 @@ library(shinycssloaders)
 #  ------------------------------------------- Header  -------------------------------------------
 
 header <- dashboardHeader(
-  title = HTML("<font size=6><strong>CHATBOARD</strong></font>"),
+  title = "CHATBOARD", #HTML("<font size=6><strong>CHATBOARD</strong></font>"),
   
-  dropdownMenu( headerText = "Would you contact the author?",
+  dropdownMenu( headerText = "Would you like to contact the author?",
                 type = "notifications", 
                 icon = icon("envelope"), 
                 badgeStatus = "primary",
@@ -27,9 +27,9 @@ header <- dashboardHeader(
                   target = "_blank"
                 ),
                 notificationItemPlus(
-                  text = "Github",
+                  text = "Source Code",
                   icon("github"),
-                  href="https://github.com/AveugleVisionnaire",
+                  href="https://github.com/AveugleVisionnaire/ShinyWhatsApp",
                   target = "_blank"
                 
                 )
@@ -103,11 +103,15 @@ sidebar <- dashboardSidebar(
 #  ------------------------------------------- Body  -------------------------------------------
 body <- dashboardBody(
   
-  tags$head(tags$style(HTML(
-    
-    ".btn-group{
+  tags$head(tags$style(HTML("
+    .btn-group{
   background-color: red;
-        }
+    }
+        
+    .main-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
         .row{
   align: center;
         }
@@ -216,7 +220,7 @@ body <- dashboardBody(
             fluidRow(
               column(12,
               HTML("<font size='6'>
-                      This App is intended to perform a quick analysis of your WhatsApp chats as easy as possible: reading your chat history and summarising keys information.
+                      This App is intended to perform a quick analysis of your WhatsApp chats as easy as possible: reading your chat history and summarizing keys information.
                       <br>
                       For that, follow theses steps:
                    </font>"),
